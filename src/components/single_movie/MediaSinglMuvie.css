@@ -1,0 +1,10 @@
+@media screen and (max-width: 400px) {
+    .Movie{
+        display: block;
+    }
+    .Overview{
+        width: 400px;
+    }
+
+
+}

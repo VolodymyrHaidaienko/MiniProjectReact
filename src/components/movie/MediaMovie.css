@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+    .Photo{
+        width: 400px;
+        height: auto;
+    }
+
+    .ContentMovie{
+        width: 100%;
+
+    }
+
+
+
+}

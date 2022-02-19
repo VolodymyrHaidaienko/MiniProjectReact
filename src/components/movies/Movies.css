@@ -1,0 +1,26 @@
+.Movies {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.ButtonPages {
+    width: 1900px;
+}
+
+.ButtonPages button {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+
+
+}
