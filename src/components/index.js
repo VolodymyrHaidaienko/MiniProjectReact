@@ -1,4 +1,6 @@
-export * from './movies/Movies'
+export * from '../constants/movies/Movies'
 export * from './single_movie/SingleMovie'
 export * from './single_movie/SinglMuvie'
 export * from './movie/Movie'
+export * from '../constants/movies/TopMovies'
+export * from './movie/TopMovie'

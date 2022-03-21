@@ -14,5 +14,16 @@ export const movieService = {
         params: {
             "api_key": API_KEY
         }
-    }).then(value => value.data)
+    }).then(value => value.data),
+    getTopRated:()=>axiosService.get(urls.topRated,{
+        params:{
+            "api_key": API_KEY
+        }}).then(value => value.data),
+    searchMovie:(value)=>axiosService.get(urls.searchMovie, {
+        params:{
+            "api_key": API_KEY,
+            "query":value
+
+        }
+    })
 }
